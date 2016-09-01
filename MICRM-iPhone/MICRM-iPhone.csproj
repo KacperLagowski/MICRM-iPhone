@@ -87,6 +87,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConnectionStringProvider.cs" />
+    <Compile Include="Contact.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="GettingStarted.Xamarin" />
@@ -105,6 +106,10 @@
     <Compile Include="SearchResults.cs" />
     <Compile Include="SearchResults.designer.cs">
       <DependentUpon>SearchResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userPickerView.cs" />
+    <Compile Include="userPickerView.designer.cs">
+      <DependentUpon>userPickerView.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>

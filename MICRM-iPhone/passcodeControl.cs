@@ -8,6 +8,7 @@ namespace MICRM_iPhone
     {
         public passcodeControl (IntPtr handle) : base (handle)
         {
+            
         }
     }
 }

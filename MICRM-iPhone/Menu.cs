@@ -12,7 +12,8 @@ namespace MICRM_iPhone
 
         partial void UIButton441_TouchUpInside(UIButton sender)
         {
-            //login
+
+            var alertController = UIAlertController.Create("Your Count", "Added 1 PC", UIAlertControllerStyle.Alert);
         }
 
         partial void UIButton663_TouchUpInside(UIButton sender)

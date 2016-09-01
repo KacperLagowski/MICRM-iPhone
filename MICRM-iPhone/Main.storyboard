@@ -123,7 +123,7 @@
                                     <action selector="UIButton441_TouchUpInside:" destination="230" id="659" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" id="442" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <pickerView contentMode="scaleToFill" id="442" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="userPickerView">
                                 <rect key="frame" x="28" y="272" width="320" height="162"/>
                             </pickerView>
                         </subviews>
