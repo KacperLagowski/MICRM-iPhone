@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Xamarin Studio from the outlets and
 // actions declared in your storyboard file.
@@ -11,12 +11,16 @@ using UIKit;
 
 namespace MICRM_iPhone
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("Menu")]
+    partial class Menu
     {
-        [Action ("UIButton100_TouchUpInside:")]
+        [Action ("UIButton441_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton100_TouchUpInside (UIKit.UIButton sender);
+        partial void UIButton441_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("UIButton663_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton663_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
