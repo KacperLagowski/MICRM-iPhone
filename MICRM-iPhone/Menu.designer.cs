@@ -14,16 +14,43 @@ namespace MICRM_iPhone
     [Register ("Menu")]
     partial class Menu
     {
-        [Action ("UIButton441_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton441_TouchUpInside (UIKit.UIButton sender);
 
-        [Action ("UIButton663_TouchUpInside:")]
+
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton663_TouchUpInside (UIKit.UIButton sender);
+        UIKit.UIButton loginButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton searchButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField searchTextBox { get; set; }
+ 
+
 
         void ReleaseDesignerOutlets ()
         {
+            if (loginButton != null) {
+                loginButton.Dispose ();
+                loginButton = null;
+            }
+
+            if (loginButton != null) {
+                loginButton.Dispose ();
+                loginButton = null;
+            }
+
+            if (searchButton != null) {
+                searchButton.Dispose ();
+                searchButton = null;
+            }
+
+            if (searchTextBox != null) {
+                searchTextBox.Dispose ();
+                searchTextBox = null;
+            }
         }
     }
 }

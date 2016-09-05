@@ -20,10 +20,6 @@ namespace MICRM_iPhone
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
-
-        partial void UIButton100_TouchUpInside(UIButton sender)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
+

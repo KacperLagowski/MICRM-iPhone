@@ -88,6 +88,10 @@
   <ItemGroup>
     <Compile Include="ConnectionStringProvider.cs" />
     <Compile Include="Contact.cs" />
+    <Compile Include="loginButton.cs" />
+    <Compile Include="loginButton.designer.cs">
+      <DependentUpon>loginButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="GettingStarted.Xamarin" />
@@ -103,9 +107,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="resultsTableView.cs" />
+    <Compile Include="resultsTableView.designer.cs">
+      <DependentUpon>resultsTableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resultsView.cs" />
+    <Compile Include="resultsView.designer.cs">
+      <DependentUpon>resultsView.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchResults.cs" />
     <Compile Include="SearchResults.designer.cs">
       <DependentUpon>SearchResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionResults.cs" />
+    <Compile Include="SelectionResults.designer.cs">
+      <DependentUpon>SelectionResults.cs</DependentUpon>
     </Compile>
     <Compile Include="userPickerView.cs" />
     <Compile Include="userPickerView.designer.cs">
@@ -134,6 +150,7 @@
   <ItemGroup>
     <BundleResource Include="crm.png" />
     <Content Include="Entitlements.plist" />
+    <BundleResource Include="indi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
